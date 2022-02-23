@@ -29,11 +29,7 @@ module.exports = {
                 test: /\.(sa|sc|c)ss$/,
                 use: [
                     MiniCssExtractPlugin.loader,
-                    // Creates `style` nodes from JS strings
-                    "style-loader",
-                    // Translates CSS into CommonJS
                     "css-loader",
-                    // Compiles Sass to CSS
                     "sass-loader"
                 ]
             },
@@ -50,7 +46,7 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'src/pages/index.pug'),
+            template: path.join(__dirname, 'src/pug/pages/index.pug'),
             inject: 'body',
             minify: false
         }),
