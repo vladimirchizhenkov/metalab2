@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.bundle.js",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve"
+    "prod": "webpack --config ./webpack.config.prod.js",
+    "watch": "webpack serve --config ./webpack.config.watch.js"
   },
   "author": "",
   "license": "ISC",
