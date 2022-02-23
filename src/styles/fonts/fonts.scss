@@ -1,11 +1,39 @@
-//@font-face {
-//  font-family: "Open Sans";
-//  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-//  url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-//}
-
+// Montserrat Regular
 @font-face {
   font-family: 'Montserrat', sans-serif;
-  src: url('/src/assets/fonts/montserrat/Montserrat-Regular.ttf') format('opentype'),
-       url('/src/assets/fonts/montserrat/Montserrat-Regular.svg') format('svg');
+  src: url('/src/assets/fonts/montserrat/Montserrat-Regular.ttf') format('truetype'),
+  url('/src/assets/fonts/montserrat/Montserrat-Regular.woff') format('woff'),
+  url('/src/assets/fonts/montserrat/Montserrat-Regular.eot') format('embedded-opentype'),
+  url('/src/assets/fonts/montserrat/Montserrat-Regular.otf') format('opentype'),
+  url('/src/assets/fonts/montserrat/Montserrat-Regular.svg') format('svg');
+}
+
+// Montserrat Bold
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  src: url('/src/assets/fonts/montserrat/Montserrat-Bold.ttf') format('truetype'),
+  url('/src/assets/fonts/montserrat/Montserrat-Bold.woff') format('woff'),
+  url('/src/assets/fonts/montserrat/Montserrat-Bold.eot') format('embedded-opentype'),
+  url('/src/assets/fonts/montserrat/Montserrat-Bold.otf') format('opentype'),
+  url('/src/assets/fonts/montserrat/Montserrat-Bold.svg') format('svg');
+}
+
+// Quicksand Regular
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url('/src/assets/fonts/quicksand/Quicksand-Regular.ttf') format('truetype'),
+  url('/src/assets/fonts/quicksand/Quicksand-Regular.woff') format('woff'),
+  url('/src/assets/fonts/quicksand/Quicksand-Regular.eot') format('embedded-opentype'),
+  url('/src/assets/fonts/quicksand/Quicksand-Regular.otf') format('opentype'),
+  url('/src/assets/fonts/quicksand/Quicksand-Regular.svg') format('svg');
+}
+
+// Quicksand Bold
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url('/src/assets/fonts/quicksand/Quicksand-Bold.ttf') format('truetype'),
+  url('/src/assets/fonts/quicksand/Quicksand-Bold.woff') format('woff'),
+  url('/src/assets/fonts/quicksand/Quicksand-Bold.eot') format('embedded-opentype'),
+  url('/src/assets/fonts/quicksand/Quicksand-Bold.otf') format('opentype'),
+  url('/src/assets/fonts/quicksand/Quicksand-Bold.svg') format('svg');
 }
